@@ -16,8 +16,11 @@ def main():
 
     # do not change the while loop definition below
     while True:
-        print=float(input("enter a number: "))
-        if sum >=0: 
+        number=float(input("enter a positive number: "))
+        if number>=0:
+            sum+=number
+        else:
             break
+    print("the sum of the numbers entered is",sum)
 
 main()    
